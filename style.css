@@ -1,0 +1,59 @@
+body {
+    background-image: url('M1.mp4');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('your-background-image.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"],
+button[type="get"] {
+    background: linear-gradient(to right, #ff0000, #ff6600);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-items: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
